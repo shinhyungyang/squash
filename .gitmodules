@@ -15,7 +15,7 @@
 	url = https://github.com/tinycthread/tinycthread.git
 [submodule "plugins/fari/FastARI"]
 	path = plugins/fari/FastARI
-	url = https://github.com/davidcatt/FastARI.git
+	url = https://github.com/shinhyungyang/FastARI.git
 [submodule "plugins/gipfeli/gipfeli"]
 	path = plugins/gipfeli/gipfeli
 	url = https://github.com/google/gipfeli.git
@@ -63,7 +63,7 @@
 	url = https://github.com/madler/zlib.git
 [submodule "plugins/lzma/xz"]
 	path = plugins/lzma/xz
-	url = http://git.tukaani.org/xz.git
+	url = https://github.com/tukaani-project/xz.git
 [submodule "plugins/lz4/lz4"]
 	path = plugins/lz4/lz4
 	url = https://github.com/Cyan4973/lz4.git
