@@ -9,16 +9,16 @@ void* squash_test_get_codec(MUNIT_UNUSED const MunitParameter params[], void* us
 
 #define SQUASH_CODEC_PARAMETER ((MunitParameterEnum*)(uintptr_t) 0xdeadbeef)
 
-MunitSuite squash_test_suite_buffer;
-MunitSuite squash_test_suite_bounds;
-MunitSuite squash_test_suite_file;
-MunitSuite squash_test_suite_flush;
-MunitSuite squash_test_suite_interop;
-MunitSuite squash_test_suite_random;
-MunitSuite squash_test_suite_splice;
-MunitSuite squash_test_suite_stream;
-MunitSuite squash_test_suite_threads;
-MunitSuite squash_test_suite_version;
+extern MunitSuite squash_test_suite_buffer;
+extern MunitSuite squash_test_suite_bounds;
+extern MunitSuite squash_test_suite_file;
+extern MunitSuite squash_test_suite_flush;
+extern MunitSuite squash_test_suite_interop;
+extern MunitSuite squash_test_suite_random;
+extern MunitSuite squash_test_suite_splice;
+extern MunitSuite squash_test_suite_stream;
+extern MunitSuite squash_test_suite_threads;
+extern MunitSuite squash_test_suite_version;
 
 #ifndef MIN
 #define MIN(a,b) (((a) < (b)) ? (a) : (b))
