@@ -203,6 +203,7 @@ if (ENABLE_SANITIZER)
   set(CMAKE_C_FLAGS " ${CMAKE_C_FLAGS} -fsanitize=${ENABLE_SANITIZER}")
   set(CMAKE_CXX_FLAGS " ${CMAKE_CXX_FLAGS} -fsanitize=${ENABLE_SANITIZER}")
 endif ()
+  set(CMAKE_C_FLAGS " ${CMAKE_C_FLAGS} -D_GNU_SOURCE")
 
 function (squash_target_add_coverage target)
   if (ENABLE_COVERAGE)
